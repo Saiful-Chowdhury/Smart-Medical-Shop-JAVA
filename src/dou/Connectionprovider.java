@@ -12,10 +12,11 @@ public class Connectionprovider {
         try {
             // The new driver class name is "com.mysql.cj.jdbc.Driver"
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/smartMedicalShop?useSSL=false", "root", "AdminSaiful");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb?useSSL=false", "root", "helloSQL");
             return con;
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+
             return null;
         }
     }
