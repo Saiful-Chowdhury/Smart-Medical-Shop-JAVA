@@ -45,45 +45,52 @@ public class AdminDasboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(0, 102, 102));
+        jLabel1.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(" Admin Panel");
+        jLabel1.setToolTipText("");
         jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(289, 28, 180, 47));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 28, 330, 47));
 
+        viewUserBtn.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
         viewUserBtn.setText("View User");
         viewUserBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewUserBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(viewUserBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 137, 90, 30));
+        getContentPane().add(viewUserBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 210, 210, 40));
 
+        jButton2.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
         jButton2.setText("Profile");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 137, 80, 40));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, 210, 40));
 
+        jButton3.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
         jButton3.setText("View Delivery boy");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 201, 90, 40));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, 210, 40));
 
+        AdminLogoutbtn.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         AdminLogoutbtn.setText("Logout");
         AdminLogoutbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AdminLogoutbtnActionPerformed(evt);
             }
         });
-        getContentPane().add(AdminLogoutbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 201, 80, 40));
+        getContentPane().add(AdminLogoutbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 430, 80, 40));
 
+        jButton5.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
         jButton5.setText("Stock");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 80, 40));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 210, 40));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/adminDashboardBackground.png"))); // NOI18N
         jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 870, 540));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 540));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
