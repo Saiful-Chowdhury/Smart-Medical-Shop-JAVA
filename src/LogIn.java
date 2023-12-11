@@ -114,7 +114,7 @@ public class LogIn extends javax.swing.JFrame {
         else 
         {
             setVisible(false);
-            new PharmacistDasboard().setVisible(true);
+            new PharmacistDasboard(email).setVisible(true);
             
         }
     }
