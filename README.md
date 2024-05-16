@@ -9,4 +9,3 @@ The Smart Medical Shop Application is a Java-based system designed to streamline
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/Saiful-Chowdhury/Smart-Medical-Shop-JAVA
-```
